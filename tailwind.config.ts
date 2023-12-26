@@ -7,6 +7,12 @@ const config: Config = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    colors: {
+      "golden-wellow": '#9B8705',
+      "wellows": '#CFB02E',
+      "dark": '#202020',
+      "white": '#F6F6F6',
+      },
     extend: {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
