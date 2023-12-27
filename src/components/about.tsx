@@ -40,8 +40,8 @@ export const About = () => {
         
         <Image className="my-10 mx-auto"
         src="/img03.jpg"
-        width={500}
-        height={500}
+        width={350}
+        height={350}
         alt="Imagem ilustrativa"/>
 
         <div className="grid grid-cols-3 gap-4 text-white text-lg">
