@@ -31,7 +31,7 @@ export const About = () => {
               <li><FaSquareCheck className="text-wellows mr-1 inline-block"/>Clareza de objetivos</li>
             </ul>
           </div>
-          <button className="bg-golden-wellow mt-5 px-10 h-12 rounded-xl text-lg font-bold hover:bg-wellows duration-500">QUERO ACESSAR AGORA!</button>
+          <button className="bg-wellows hover:bg-golden-wellow duration-500 mt-10 px-20 h-12 rounded-xl text-white text-lg font-bold">QUERO ACESSAR AGORA!</button>
         </div>
       </section>
 
@@ -83,7 +83,7 @@ export const About = () => {
             <p>Suporte técnico e dedicado</p>
           </div>
         </div>
-        <button className="bg-golden-wellow hover:bg-wellows duration-500  shadow-wellows/90 shadow-lg mt-10 px-10 h-12 rounded-xl text-white text-lg font-bold">QUERO ACESSAR AGORA!</button>
+        <button className="bg-golden-wellow hover:bg-wellows/80 duration-500 shadow-wellows/90 shadow-lg mt-10 px-28 h-12 rounded-xl text-white text-lg font-bold">QUERO ACESSAR AGORA!</button>
       </section>
     </>
   )
