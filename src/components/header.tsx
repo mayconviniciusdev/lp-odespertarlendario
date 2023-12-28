@@ -11,7 +11,7 @@ export const Header = () => {
         width={500}
         height={500}
         alt="Imagem ilustrativa"/>
-        <button className="bg-wellows hover:bg-golden-wellow duration-500 shadow-golden-wellow/80 shadow-lg mt-10 px-14 h-12 rounded-xl text-white text-lg font-bold">QUERO ACESSAR AGORA!</button>
+        <button className="bg-wellows hover:bg-wellows/80 duration-500 shadow-wellows/70 shadow-lg mt-10 px-16 h-12 rounded-xl text-white text-lg font-bold">QUERO ACESSAR AGORA!</button>
       </div>
     </header>
   )

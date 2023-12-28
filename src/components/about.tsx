@@ -31,7 +31,7 @@ export const About = () => {
               <li><FaSquareCheck className="text-wellows mr-1 inline-block"/>Clareza de objetivos</li>
             </ul>
           </div>
-          <button className="bg-wellows hover:bg-golden-wellow duration-500 mt-10 px-20 h-12 rounded-xl text-white text-lg font-bold">QUERO ACESSAR AGORA!</button>
+          <button className="bg-wellows hover:bg-wellows/80 duration-500 mt-10 px-20 h-12 rounded-xl text-white text-lg font-bold">QUERO ACESSAR AGORA!</button>
         </div>
       </section>
 
@@ -39,9 +39,9 @@ export const About = () => {
         <h2 className="text-xl font-bold ">Um <strong className="text-golden-wellow underline">sistema para organização de vida</strong> em tempo recorde em um único lugar, foque seu tempo  no que realmente importa!</h2>
         
         <Image className="my-10 mx-auto"
-        src="/img03.jpg"
-        width={300}
-        height={300}
+        src="/img03.png"
+        width={400}
+        height={400}
         alt="Imagem ilustrativa"/>
 
         <div className="grid grid-cols-3 gap-4 text-white text-lg">
@@ -83,7 +83,7 @@ export const About = () => {
             <p>Suporte técnico e dedicado</p>
           </div>
         </div>
-        <button className="bg-wellows hover:bg-wellows/80 duration-500 shadow-wellows/70 shadow-lg mt-10 px-28 h-12 rounded-xl text-white text-lg font-bold">QUERO ACESSAR AGORA!</button>
+        <button className="bg-wellows hover:bg-wellows/80 duration-500 shadow-wellows/70 shadow-lg mt-10 px-36 h-12 rounded-xl text-white text-lg font-bold">QUERO ACESSAR AGORA!</button>
       </section>
     </>
   )
