@@ -1,9 +1,8 @@
 export const Footer = () => {
   return (
-    <header className="bg-dark">
-      <div className="py-5 text-center max-w-2xl mx-auto text-white">
-        <h2 className="font-bold text-lg">TODOS OS DIREITOS RESERVADOS.</h2>
-        <p>2024</p>
+    <header className="bg-white px-2">
+      <div className="py-10 text-center max-w-2xl mx-auto text-dark/70">
+        <h2 className="font-bold">TODOS OS DIREITOS RESERVADOS. 2024</h2>
       </div>
     </header>
   )
