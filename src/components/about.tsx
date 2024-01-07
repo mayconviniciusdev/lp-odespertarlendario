@@ -3,16 +3,16 @@ import { FaChartColumn, FaCircleHalfStroke, FaDesktop, FaEarthAmericas, FaFeathe
 
 export const About = () => {
   const benefits = [
-    {benefits: 'Clareza de objetivos'},
-    {benefits: 'Redução da procrastinação'},
-    {benefits: 'Criação de hábitos saudáveis'},
-    {benefits: 'Crescimento pessoal contínuo'},
-    {benefits: 'Metas e objetivos realizáveis'},
-    {benefits: 'Aumento da produtividade'}, ] 
+    {benefit: 'Clareza de objetivos'},
+    {benefit: 'Redução da procrastinação'},
+    {benefit: 'Criação de hábitos saudáveis'},
+    {benefit: 'Crescimento pessoal contínuo'},
+    {benefit: 'Metas e objetivos realizáveis'},
+    {benefit: 'Aumento da produtividade'}, ] 
 
   return (
     <>
-      <section className="container mx-auto py-12 px-5 text-center lg:flex items-center justify-center gap-20">
+      <section className="container mx-auto py-24 px-5 text-center lg:flex items-center justify-center gap-20">
         <div className="max-w-md mx-auto mb-10 lg:m-0">
           <h2 className="font-bold text-xl"><strong className="text-golden-wellow underline">Quer tomar as rédeas da sua vida</strong> saindo de ciclos ruins e improdutivos?</h2>
           <p className="py-5">O <strong>Despertar lendário</strong> ajudará você em sua transformação de vida, conquistando metas e sonhos de uma forma leve e visual.</p>
@@ -26,18 +26,18 @@ export const About = () => {
       </section>
 
       <section className="bg-dark px-5">
-        <div className="py-12 text-center container mx-auto text-white">
-          <h2 className="text-xl max-w-md mx-auto font-bold">O que você irá encontrar e obter com o template <strong className="text-wellows underline">Despertar Lendário?</strong></h2>
-          <div className="my-12 max-w-xl mx-auto shadow-2xl shadow-wellows rounded-2xl">
+        <div className="py-24 text-center container mx-auto text-white">
+          <h2 className="text-xl max-w-md mx-auto font-bold">O que você irá encontrar e obter com o template <strong className="text-golden-wellow underline">Despertar Lendário?</strong></h2>
+          <div className="my-6 max-w-xl mx-auto shadow-2xl shadow-golden-wellow rounded-2xl">
             <ul className="bg-white text-dark/70 font-semibold py-6 rounded-2xl">
-              {benefits.map((item)=> (<li className="flex items-center justify-center my-1"><FaSquareCheck className="text-wellows mr-1 text-xl"/>{item.benefits}</li>))}
+              {benefits.map((item)=> (<li className="flex items-center justify-center my-1"><FaSquareCheck className="text-wellows mr-1"/>{item.benefit}</li>))}
             </ul>
           </div>
-          <button className="bg-wellows hover:bg-wellows/80 duration-500 mt-8 h-12 rounded-xl px-4 text-lg font-bold md:px-24">QUERO ACESSAR AGORA!</button>
+          <button className="bg-wellows hover:bg-wellows/80 duration-500 mt-12 h-12 rounded-xl px-4 text-lg font-bold md:px-24">QUERO ACESSAR AGORA!</button>
         </div>
       </section>
 
-      <section className="container mx-auto py-12 px-5 text-center">
+      <section className="container mx-auto py-24 px-5 text-center">
         <div className="max-w-2xl mx-auto">
         <h2 className="text-xl font-bold ">Um <strong className="text-golden-wellow underline">sistema para organização de vida</strong> em tempo recorde em um único lugar, foque seu tempo  no que realmente importa!</h2>
         <Image className="my-10 mx-auto px-4"
